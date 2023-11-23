@@ -1,0 +1,65 @@
+@import url(./fonts.css);
+/* CUSTOM PROPS */
+
+:root{
+    --primary-color: #7177F1;
+    --body-color: #151437;
+    --text-color: #323232;
+    --dots: #828282;
+    --dots-active: #7177F1;
+    --tab-text: #7177F1;
+    --footer-link: #7177F1;
+    --monstserrat: "monstserrat";
+    --trebuchet: "trebuchet";
+
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+a{
+    
+}
+ul{
+    list-style: none;
+    margin-bottom: 0;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
+body{
+    font-family: var(--monstserrat);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+.all-btn{
+    max-width: 190px;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: var(--monstserrat);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 8px;
+    transition: .5s;
+}
+.all-btn{
+    color: #fff;
+    background-color: #790ff1;
+
+}
+.all-btn:active{
+    opacity: .7;
+}
